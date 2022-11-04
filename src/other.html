@@ -1,0 +1,9 @@
+<script>
+const numbers = (...arg) => {
+    return arg.map((ele) => ele.reducer((i,j) => {
+        i<j
+    }))
+}
+console.log(numbers(1,2,3,4))
+
+</script>
