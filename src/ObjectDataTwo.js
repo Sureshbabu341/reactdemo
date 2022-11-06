@@ -1,31 +1,31 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './globalstyles.css';
+
 function RenderingArrayOfObjects() {
     const data = [
         {
-            "Name": "Nikita",
+            "Name": "Ramesh",
             "Marks": "98",
             "Phone": "123"
         },
         {
-            "Name": "Pratiksha",
+            "Name": "Suresh",
             "Marks": "96",
             "Phone": "127"
         },
         {
-            "Name": "Muskan",
+            "Name": "Mahesh",
             "Marks": "97",
             "Phone": "163"
         },
         {
-            "Name": "Nishi",
+            "Name": "Rupesh",
             "Marks": "95",
             "Phone": "193"
         },
         {
-            "Name": "Himanshu",
+            "Name": "Satya",
             "Marks": "78",
             "Phone": "120"
         }
@@ -62,15 +62,15 @@ function RenderingArrayOfObjects() {
         </div>
     )
 }
-function ParentLevelComponent() {
+function ParentLevelComponentTwo() {
     return (
-        <div className='main-wrapper'>
+        <div className="App" style={{background:'#ed1703', color:'white'}}>
             <div>
-                <h1 style={{ color: 'white' }}>Students Details Sheet 1</h1>
+                <h1 style={{ color: 'white' }}>Students Details Sheet 2</h1>
                 <RenderingArrayOfObjects />
             </div>
         </div>
     );
 }
 
-export default ParentLevelComponent;
+export default ParentLevelComponentTwo;

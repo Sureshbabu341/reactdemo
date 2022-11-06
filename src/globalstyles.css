@@ -1,0 +1,31 @@
+.main-wrapper {
+    margin: 0;
+    padding: auto;
+    background-color: #ed1703;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.profilecontainer {
+    background-image: url(../src/logo.PNG);
+    background-repeat: no-repeat;
+    width: 471px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.textFld {
+    margin-bottom: 10px !important;
+    display: block;
+}
+
+label {
+    color: white !important
+}
+
+.formEle {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
